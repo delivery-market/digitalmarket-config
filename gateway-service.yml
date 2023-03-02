@@ -14,7 +14,13 @@ spring:
   cloud:
     gateway:
       routes:
-        - id: my-route
-          uri: https://httpbin.org
+        - id: product-service
+          uri: lb://PRODUCT-SERVICE
           predicates:
-            - Path=/anything/**
+            - Path=/products/**
+          filters:
+            - StripPrefix=1
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
