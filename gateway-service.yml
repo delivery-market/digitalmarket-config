@@ -10,17 +10,3 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
 
 
-spring:
-  cloud:
-    gateway:
-      routes:
-        - id: product-service
-          uri: lb://PRODUCT-SERVICE
-          predicates:
-            - Path=/products/**
-          filters:
-            - StripPrefix=1
-      discovery:
-        locator:
-          enabled: true
-          lower-case-service-id: true
