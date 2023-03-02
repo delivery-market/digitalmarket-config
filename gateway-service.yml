@@ -16,9 +16,8 @@ spring:
       discovery:
         locator:
           enabled: true
-          lowerCaseServiceId: true
       routes:
-      - id: product-service
-        uri: lb://product-service
+      - id: productModule
+        uri: lb://PRODUCT-SERVICE
         predictaes:
           - Path=/products/**
