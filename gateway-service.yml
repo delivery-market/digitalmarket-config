@@ -20,5 +20,5 @@ spring:
       routes:
       - id: productModule
         uri: lb://PRODUCT-SERVICE
-        predictaes:
+        predicates:
           - Path=/products/**
