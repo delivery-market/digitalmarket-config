@@ -1,0 +1,134 @@
+{
+    "users": {
+        "createdAt": "",
+        "displayName": "",
+        "phoneNumber": "",
+        "email": "",
+        "photoUrl": "",
+        "type": "",
+        "subscription": {
+            "status": "",
+            "type": "",
+            "discount": ""
+        },
+        "shoppingCart": [
+            {
+                "id": "",
+                "productName": "",
+                "quantity": 1,
+                "price": "9999"
+            }
+        ],
+        "quantityProducts": 3
+    },
+    "orders": {
+        "orderId": "",
+        "country": "",
+        "city": "",
+        "products": {
+            "additionDate": "",
+            "id": "",
+            "name": "",
+            "price": "",
+            "discounty": "",
+            "quantity": 1
+        },
+        "userId": "",
+        "payment_details": {
+            "amount": 33.00,
+            "provider": "",
+            "status": "",
+            "createdAt": "",
+            "updateAt": ""
+        },
+        "address": "",
+        "phoneNumber": "",
+        "id": "productsOrdersId",
+        "total": 33.99
+    },
+    "products": {
+        "name": "",
+        "description": "",
+        "image": "",
+        "businessId": "",
+        "category": "",
+        "price": "",
+        "likes": "",
+        "discount": {
+            "name": "",
+            "value": ""
+        },
+        "createdAt": "",
+        "updateAt": "",
+        "SKU": ""
+    },
+    "category": {
+        "id": "",
+        "name": "",
+        "description": "",
+        "createdAt": "",
+        "updateAt": "",
+        "subcategories": [
+            {
+                "id": "",
+                "name": "",
+                "description": "",
+                "createdAt": "",
+                "updateAt": ""
+            }
+        ]
+    }
+    ,
+    "discount": {
+        "id": "",
+        "name": "",
+        "description": "",
+        "discountPercent": ""
+    },
+    "business": {
+        "id": "",
+        "name": "",
+        "city": "",
+        "country": "",
+        "region": "",
+        "createdAt": "",
+        "updateAt": "",
+        "points": "",
+        "ruc": "",
+        "phoneNumberList": [
+            ""
+        ],
+        "owner": {
+            "documentNumber": "",
+            "phoneNumber": "",
+            "typeDocument": ""
+        },
+        "contract": {
+            "dateContract": "",
+            "attachments": [
+                {
+                    "code": "SIGNED_DOCUMENT",
+                    "url": ""
+                }
+            ]
+        }
+    },
+    "ridersOrders":{
+        "riderId": "",
+        "maxNumberOrders": 3
+    }
+    ,
+    "riders":{
+        "id": "",
+        "displayName": "",
+        "documentNumber": "",
+        "typeDocument": "",
+        "vehicle": {
+            "brand": "",
+            "model": "",
+            "licensePlate": "",
+            "color": "",
+            "yearManufactured": ""
+        }
+    }
+}
