@@ -123,6 +123,15 @@
         "displayName": "",
         "documentNumber": "",
         "typeDocument": "",
+        "contract": {
+            "dateContract": "",
+            "attachments": [
+                {
+                    "code": "SIGNED_DOCUMENT",
+                    "url": ""
+                }
+            ]
+        },
         "vehicle": {
             "brand": "",
             "model": "",
